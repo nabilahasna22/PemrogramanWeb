@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loop Polinema</h2>
+
+<p id="demo"></p>
+
+<script>
+const abjad = ["P", "O", "L", "I", "N", "E", "M", "A"];
+var text = " ";
+for (var i = 0; i < abjad.length; i++) {
+  // Menambahkan spasi sebanyak nilai i
+  for (var j = 0; j < i; j++) {
+    text += "  "; // Menggunakan &nbsp; untuk spasi non-breaking
+  }
+  text += abjad[i] + "\n";
+}
+console.log(text);
+</script>
+
+</body>
+</html>
