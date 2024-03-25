@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Warna latar belakang */
+}
+
+.ktp {
+    width: 700px; /* Kembalikan ukuran tabel */
+    margin: 70px auto;
+    background-color: #7fc5eb; /* Warna latar belakang biru muda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ktp-title {
+    text-align: center;
+    margin: 0;
+    padding: 2px; /* Perpendek jarak antara judul dan konten */
+}
+
+.ktp-photo {
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+    float: right; /* Letakkan di sebelah kanan */
+}
+
+.ktp-info {
+    padding: 20px;
+    font-weight: bold;
+    padding-top:8px;
+}
+
+.ktp-info-item {
+    margin-bottom: 3px; /* Perpendek jarak antara paragraf */
+}
+
+.ktp-info-label {
+    font-weight: bold;
+}
+
+/* Menggeser ke kanan */
+.ktp-info-item span {
+    display: inline-block;
+    width: 150px; /* Lebar label */
+    
+}
+
+.NIK {
+    line-height:2;
+    font-family: OCR A;
+    margin: 0;
+    padding: 0;
+    font-size : 19pt;
+    background-color: #7fc5eb; /* Warna latar belakang biru muda */
+    margin-left: auto; /* Menggeser ke kanan */
+}

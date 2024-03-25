@@ -1,0 +1,2 @@
+Assalamualaikum, Pak Dimas.
+Mohon maaf atas keterlambatan upload Pertemuan 2 pada github, dikarenakan sebelumnya saya masih mengupload dengan cara manual menggunakan drag and drop, dan baru saya perbaiki uploadnya melalui proses git push.
