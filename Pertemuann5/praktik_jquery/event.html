@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Untuk mengatur tampilan paragraf */
+            #paragraf{
+                width:600px;
+                height: 80px;
+                background-color: pink;
+                line-height:80px;
+                text-align:center;
+                font-size:30px;
+            }
+        </style>
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#paragraf").click(function(){
+                    // Untuk mengubah warna teks paragraf menjadi putih
+                    $("#paragraf").css("color", "white");
+                });
+                // Ketika mouse berada di atas paragraf
+                $("#paragraf").mouseover(function(){
+                    // Untuk mengubah warna latar belakang paragraf menjadi silver
+                    $("#paragraf").css("background-color", "silver");
+                });
+                // Ketika mouse keluar dari paragraf
+                $("#paragraf").mouseout(function(){
+                    // Untuk mengubah warna latar belakang paragraf menjadi biru
+                    $("#paragraf").css("background-color", "blue");
+                });
+                // Ketika paragraf mendapat double-click
+                $("#paragraf").dblclick(function(){
+                    // Untuk menambahkan border berwarna hitam dengan ketebalan 3px pada paragraf
+                    $("#paragraf").css("border", "solid 3px black");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="paragraf">Praktikum Minggu ke-4 jQuery</p>
+    </body>
+</html>
