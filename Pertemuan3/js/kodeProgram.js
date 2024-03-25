@@ -1,1 +1,0 @@
-alert ("Hellow, this is an external JS program");
