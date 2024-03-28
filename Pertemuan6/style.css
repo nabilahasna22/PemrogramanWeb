@@ -1,0 +1,17 @@
+/*tampilan tabel*/
+table {
+    border-collapse: collapse; /* Batas antar sel digabung*/
+    border-spacing: 0; /*jarak antar sel*/
+    width: 100%; /*Lebar dari tabel*/
+    border: 1px solid #ddd; /*mengatur besar, warna border*/
+}
+
+/*tampilan sel header dan data-datanya*/
+th, td {
+    text-align: left; /*posisi teks di kiri*/
+    padding: 16px; /*mengatur ruang dalam cell*/
+}
+/*background tiap baris genap (2, 4)*/
+tr:nth-child(even) {
+    background-color: #f2f2f2; /*mengatur warna background baris genap*/
+}
