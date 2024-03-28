@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.container-satu{
+    width: 800xpx;
+    margin: 50px auto;
+    background-color: #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.kolom-utama {
+    flex: 1; /* Kolom utama mengambil ruang yang tersisa */
+    background-color: #dbebff;
+}
+.sidebar-satu, .sidebar-dua {
+    width: 200px; /* Lebar sidebar */
+    background-color: #91c5ef; /* Warna latar belakang sidebar-satu */
+}
+.sidebar-satu {
+    order: -1; /* Mengatur urutan sidebar-satu ke kiri */
+}
+sidebar-dua {
+    order: -1; /* Mengatur urutan sidebar-satu ke kiri */
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px; /* Jarak antara gambar dengan teks */
+}
