@@ -5,7 +5,7 @@ BUKTI PENGUMPULAN PERTEMUAN 1 SAMPAI 3
 <img src="Bukti-bukti/BuktiPengumpulanPertemuan1-3.png">
 
 BUKTI PENGUMPULAN PERBAIKAN 1 SAMPAI 4
-<img src="Bukti-bukti/BuktiPengumpulanPerbaikan.jpeg">
+<img src="Bukti-bukti/BuktiPerbaikanPengumpulan.jpeg">
 
 BUKTI EROR
 <img src="Bukti-bukti/BuktiKendalaPengumpulan(1).jpeg">
