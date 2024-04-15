@@ -1,0 +1,140 @@
+/* Memastikan konten teks dalam header dan kontainer berada di tengah */
+.header, .container {
+    text-align: center;
+}
+
+/* Navigasi */
+.main-nav {
+    font-size: 17px; /* Ukuran font */
+    font-family: Garamond Bold; /* Jenis font */
+    background-color:  rgb(210, 182, 56); /* Warna latar belakang */
+    height: 50px; /* Tinggi navigasi */
+    display: flex; /* Tampilan fleksibel */
+    justify-content: center; /* Posisi teks di tengah secara horizontal */
+    align-items: center; /* Posisi teks di tengah secara vertikal */
+}
+
+/* Daftar menu */
+.menu {
+    list-style: none; /* Hapus bullet */
+    padding: 0;
+    margin: 0 auto; /* Posisi di tengah secara horizontal */
+    display: inline-block; /* Tampilkan sebagai inline-block */
+}
+
+/* Setiap item menu */
+.menu li {
+    display: inline-block; /* Tampilkan sebagai inline-block */
+    margin-right: 40px; /* Jarak antar link */
+}
+
+/* Hapus margin pada link terakhir */
+.menu li:last-child {
+    margin-right: 0;
+}
+
+/* Tautan dalam menu */
+.menu li a {
+    font-weight: bold; /* Ketebalan font */
+    text-decoration: none; /* Tanpa dekorasi teks */
+    color: #000000; /* Warna teks */
+}
+
+.slideshow-container {
+    position: relative; /* Posisi relatif */
+    width: 100%; /* Lebar 100% */
+    margin: auto; /* Posisi di tengah */
+}
+
+.slide {
+    display: none; /* Sembunyikan slide */
+}
+
+.slide img {
+    width: 100%; /* Lebar gambar 100% */
+    height: auto; /* Ketinggian otomatis */
+}
+
+/* Style untuk slideshow */
+#slider {
+    position: relative; /* Posisi relatif */
+    width: 100%; /* Lebar 100% */
+    height: 400px; /* Tinggi 400px */
+    overflow: hidden; /* Overflow diatur menjadi tersembunyi */
+}
+
+/* Style untuk gambar dalam slideshow */
+#slider img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: none; /* Gambar disembunyikan secara default */
+}
+
+/* Style untuk efek fade pada gambar */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Style untuk judul sub */
+.sub-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d3c02f; /* Warna teks */
+    margin-bottom: 25px; /* Jarak bawah */
+    text-align: center;
+}
+
+/* Style untuk slogan */
+.slogan {
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+/* Style untuk visi-misi */
+.visi-misi {
+    font-size: 15px;
+    line-height: 1.15;
+    max-width: 600px;
+    margin: 2px auto;
+}
+
+/* Garis horizontal */
+hr {
+    margin-top: 40px;
+    width: 50%;
+}
+
+/* Style untuk tabel */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Style untuk sel dalam tabel */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Warna untuk poin bullet */
+.bullet {
+    color: #d8c03d;
+}
+
+/* Style untuk informasi WO */
+.informasi-wo {
+    max-width: 70%;
+    margin: 0 auto;
+}

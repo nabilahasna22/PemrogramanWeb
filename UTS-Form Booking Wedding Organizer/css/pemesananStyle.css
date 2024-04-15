@@ -1,0 +1,78 @@
+/* Style untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Warna latar belakang */
+}
+
+/* Style untuk container */
+.container {
+    background-color: #fff; /* Warna latar belakang */
+    padding: 30px; /* Padding di dalam container */
+    border-radius: 8px; /* Border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    max-width: 650px; /* Lebar maksimum agar tetap responsif */
+    margin: 20px auto; /* Jarak dari atas dan bawah, serta menengahkan secara otomatis */
+    box-sizing: border-box; /* Box sizing */
+}
+
+/* Style untuk gambar */
+img {
+    text-align: center; /* Posisi teks pada tengah */
+    margin: 0 auto; /* Posisi gambar pada tengah secara horizontal */
+}
+
+/* Style untuk form */
+form {
+    display: flex; /* Menggunakan flexbox */
+    flex-direction: column; /* Menjadikan orientasi kolom */
+}
+
+form h2 {
+    text-align: center; /* Posisi teks pada tengah */
+    font-size: 24px; /* Ukuran font */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Style untuk label */
+label {
+    margin-bottom: 8px; /* Jarak bawah */
+    font-weight: bold; /* Tebal */
+}
+
+/* Style untuk input, select, dan textarea */
+input,
+select,
+textarea {
+    padding: 10px; /* Padding */
+    margin-bottom: 15px; /* Jarak bawah */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+    box-sizing: border-box; /* Box sizing */
+    width: 100%; /* Mengisi lebar form */
+}
+
+/* Style untuk input file */
+input[type="file"] {
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Style untuk tombol submit */
+input[type="submit"] {
+    background-color: #d3c02f; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    cursor: pointer; /* Pointer ketika diarahkan */
+}
+
+/* Hover pada tombol submit */
+input[type="submit"]:hover {
+    background-color: #baa928; /* Warna latar belakang saat dihover */
+}
+
+/* Style untuk paragraf */
+p {
+    text-align: center; /* Posisi teks pada tengah */
+    margin-top: 20px; /* Jarak atas */
+    font-size: 14px; /* Ukuran font */
+}

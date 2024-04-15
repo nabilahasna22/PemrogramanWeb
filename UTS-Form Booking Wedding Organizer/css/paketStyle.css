@@ -1,0 +1,66 @@
+/* Style untuk tombol "Lihat Deskripsi" */
+.toggle-btn {
+    background-color: #d3c02f; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Tanpa border */
+    cursor: pointer; /* Pointer ketika diarahkan */
+    padding: 8px 16px; /* Padding */
+    text-align: center; /* Posisi teks pada tengah */
+    text-decoration: none; /* Tanpa dekorasi teks */
+    display: inline-block; /* Menampilkan sebagai inline block */
+    font-size: 14px; /* Ukuran font */
+    margin: 10px 0; /* Jarak atas dan bawah */
+    transition-duration: 0.4s; /* Durasi transisi */
+    border-radius: 8px; /* Sudut melengkung */
+}
+
+/* Style untuk judul sub */
+h2.sub-title {
+    font-size: 40px; /* Ukuran font */
+    color: rgb(210, 182, 56); /* Warna teks */
+}
+
+/* Style untuk tombol "Lihat Deskripsi" ketika dihover */
+.toggle-btn:hover {
+    background-color: #b9a520; /* Ubah warna latar belakang saat hover */
+}
+
+/* Style untuk ikon panah pada tombol "Lihat Deskripsi" */
+.toggle-btn::after {
+    content: '\25BC'; /* Menambahkan ikon panah ke bawah */
+    margin-left: 5px; /* Jarak kiri dari teks */
+}
+
+/* Style untuk tombol "Lihat Deskripsi" yang diklik (ditampilkan deskripsi) */
+.toggle-btn.active::after {
+    content: '\25B2'; /* Mengubah ikon panah menjadi ke atas */
+}
+
+/* Style untuk deskripsi yang disembunyikan secara default */
+.deskripsi {
+    text-align: left; /* Posisi teks kiri */
+    display: none; /* Sembunyikan secara default */
+    margin-top: 10px; /* Jarak atas */
+    border: 1px solid #ddd; /* Border */
+    padding: 10px; /* Padding */
+    background-color: #dad574; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut melengkung */
+    max-width: 70%; /* Lebar maksimum */
+    margin: 0 auto; /* Posisi di tengah secara horizontal */
+}
+
+/* Style untuk judul paket */
+h3.paket-title {
+    font-style: italic; /* Gaya huruf italic */
+    color: black; /* Warna teks */
+    font-size: 40px; /* Ukuran font */
+    margin: 20px auto; /* Jarak atas dan bawah serta posisi di tengah secara horizontal */
+    text-align: center; /* Posisi teks pada tengah */
+}
+
+/* Style untuk bullet */
+.paket li {
+    list-style-type: disc; /* Gunakan bullet */
+    font-size: 16px; /* Ukuran font */
+    margin-left: 20px; /* Jarak dari kiri */
+}
