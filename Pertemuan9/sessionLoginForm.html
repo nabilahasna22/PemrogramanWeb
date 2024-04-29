@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+
+<body>
+    <!-- Form login yang akan mengirimkan data ke sessionLoginProses.php saat tombol submit ditekan -->
+    <form action="sessionLoginProses.php" method="POST">
+        <table>
+            <tr>
+                <td>Username</td>
+                <!-- Input field untuk username -->
+                <td><input type="text" name="username" size="20"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <!-- Input field untuk password -->
+                <td><input type="password" name="password" size="20"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <!-- Tombol untuk mengirimkan data form -->
+                <td><input type="submit" name="Login" value="Log In"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
